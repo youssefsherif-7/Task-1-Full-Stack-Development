@@ -1,0 +1,13 @@
+<html lang-"en">
+    <%- include('./partials/head.ejs') %>
+    <body>
+        <%- include('./partials/nav.ejs') %>
+
+        <div class='jokes content'>
+            <h2>Random Dad Jokes</h2>
+            <h3>Setup Line: <span style="font-weight: normal;"> <%=yah.body.setup%> </span></h3>
+            <h3>Punchline: <span style="font-weight: normal;"> <%=yah.body.punchline%> </span></h3>
+        </div>
+        <%- include('./partials/footer.ejs') %>
+    </body>
+</html>
